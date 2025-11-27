@@ -9,6 +9,13 @@ const Body = () => {
           <h2 style={styles.name}>Roman Girny</h2>
           <p style={styles.position}>QA</p>
         </div>
+          </div>
+   <div style={styles.card}>
+        <img src={"/mariana-photo.jpg"} alt="Mariana Nadorozhniak" style={styles.photo} />
+        <div style={styles.textContainer}>
+          <h2 style={styles.name}>Mariana Nadorozhniak</h2>
+          <p style={styles.position}>UA/UX DESIGNER</p>
+        </div>
       </div>
       <div style={styles.card}>
         <img src={"/sasha-photo.jpg"} alt="Olexandr Skrypnychuk" style={styles.photo} />
@@ -17,6 +24,13 @@ const Body = () => {
           <p style={styles.position}>Software Developer</p>
         </div>
       </div>
+          <div style={styles.card}>
+              <img src={"/sofiia-photo.jpg"} alt="Sofiia Kotiuk" style={styles.photo} />
+              <div style={styles.textContainer}>
+                  <h2 style={styles.name}>Sofiia Kotiuk</h2>
+                  <p style={styles.position}>BUSINESS ANALYST</p>
+              </div>
+          </div>
     </main>
   );
 };
