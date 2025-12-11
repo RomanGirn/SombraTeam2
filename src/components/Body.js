@@ -52,8 +52,8 @@ const styles = {
     width: "150px",
     padding: "1em",
     borderRadius: "10px",
-    backgroundColor: "#fff",
-    boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
+    backgroundColor: "#d81e1eff",
+    boxShadow: "0 4px 8px rgba(245, 10, 10, 0.1)",
     textAlign: "center",
     margin: "1em",
     display: "flex",
@@ -77,7 +77,7 @@ const styles = {
   },
   position: {
     fontSize: "0.9em",
-    color: "#6a0dad", // Same purple color as header
+    color: "#6a0", // Same purple color as header
     margin: "0.5em 0 0 0",
   },
 };
