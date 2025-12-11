@@ -7,14 +7,36 @@ const Body = () => {
         <img src={"/roman-photo.jpg"} alt="Roman Girny" style={styles.photo} />
         <div style={styles.textContainer}>
           <h2 style={styles.name}>Roman Girny</h2>
-          <p style={styles.position}>QA</p>
+          <p style={styles.position}>Quality Assurance</p>
         </div>
       </div>
         <div style={styles.card}>
         <img src={"/mariana-photo.jpg"} alt="Nariana Madorozhniak" style={styles.photo} />
+
         <div style={styles.textContainer}>
           <h2 style={styles.name}>Mariana Nadorozhniak</h2>
           <p style={styles.position}>UA/UX DESIGNER</p>
+        </div>
+      </div>
+      <div style={styles.card}>
+        <img src={"/sasha-photo.jpg"} alt="Olexandr Skrypnychuk" style={styles.photo} />
+        <div style={styles.textContainer}>
+          <h2 style={styles.name}>Olexandr Skrypnychuk</h2>
+          <p style={styles.position}>Software Developer</p>
+        </div>
+      </div>
+      <div style={styles.card}>
+        <img src={"/sofiia-photo.jpg"} alt="Sofiia Kotiuk" style={styles.photo} />
+        <div style={styles.textContainer}>
+          <h2 style={styles.name}>Sofiia Kotiuk</h2>
+          <p style={styles.position}>BUSINESS ANALYST</p>
+        </div>
+      </div>
+      <div style={styles.card}>
+        <img src={"/ivan-photo.jpg"} alt="Ivan Lykov" style={styles.photo} />
+        <div style={styles.textContainer}>
+          <h2 style={styles.name}>Ivan Lykov</h2>
+          <p style={styles.position}>Project Manager</p>
         </div>
       </div>
     </main>
