@@ -7,7 +7,8 @@ const Body = () => {
         <img src={"/roman-photo.jpg"} alt="Roman Girny" style={styles.photo} />
         <div style={styles.textContainer}>
           <h2 style={styles.name}>Roman Girny</h2>
-          <p style={styles.position}>QA Engineer</p>
+          <p style={styles.position}>QA</p>
+
         </div>
       </div>
         <div style={styles.card}>
@@ -15,7 +16,7 @@ const Body = () => {
 
         <div style={styles.textContainer}>
           <h2 style={styles.name}>Mariana Nadorozhniak</h2>
-          <p style={styles.position}>UA/UX DESIGNER</p>
+          <p style={styles.position}>UA/UX Designer</p>
         </div>
       </div>
       <div style={styles.card}>
